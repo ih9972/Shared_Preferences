@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         String st = item.getTitle().toString();
         if (st.equals("Credits screen")) {
-            Intent si = new Intent(this, MainActivity2.class);
+            Intent si = new Intent(this, CreditsActivity.class);
             startActivity(si);
         }
         return super.onOptionsItemSelected(item);

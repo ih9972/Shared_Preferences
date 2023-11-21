@@ -10,15 +10,13 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-import com.example.sharedpreferences.R;
-
-public class MainActivity2 extends AppCompatActivity {
+public class CreditsActivity extends AppCompatActivity {
     TextView mTextView;
     String st;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_credits);
         Intent gi = getIntent();
         mTextView = (TextView) findViewById(R.id.textView12);
         mTextView.setText("All of the credits belongs to Itai Hadar THE KING ");
